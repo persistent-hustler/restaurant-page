@@ -4,23 +4,28 @@
 
 body {
     margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(white, whitesmoke);
+    background: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    min-height: 100vh;
 }
 
 header {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+header > div {
+    margin-left: auto;
+    margin-right: auto;
     width: min(800px, 100vw);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: white;
-    position: fixed;
 }
 
 header h1 {
@@ -37,16 +42,20 @@ header button {
 	cursor: pointer;
 }
 
-header > nav {
+header nav {
     display: flex;
     gap: 32px;
 }
 
 #content {
     margin-top: 80px;
+    padding: 0 40px;
 }
 
-img {
-    width: 300px;
-    height: auto;
+footer {
+    background-color: rgb(209, 205, 205);
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px 20px;
+    width: 100%;
 }

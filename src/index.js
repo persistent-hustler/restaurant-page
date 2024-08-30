@@ -1,5 +1,5 @@
 import "./styles.css";
-import { homePage } from "./scripts/homepage";
+import { homePage } from "./scripts/home-page";
 import { menuPage } from "./scripts/menu-page";
 import { aboutPage } from "./scripts/about-page";
 import { reservationPage } from "./scripts/reservation-page";
@@ -12,7 +12,7 @@ const homeBtn = document.querySelector('#home');
 const menuBtn = document.querySelector('#menu');
 const aboutBtn = document.querySelector('#about');
 const reservationBtn = document.querySelector('#reservation');
-const logo = document.querySelector('header>h1')
+const logo = document.querySelector('header h1')
 
 logo.addEventListener('click', ()=>{
     contentDiv.innerHTML = '';
