@@ -12,6 +12,12 @@ const homeBtn = document.querySelector('#home');
 const menuBtn = document.querySelector('#menu');
 const aboutBtn = document.querySelector('#about');
 const reservationBtn = document.querySelector('#reservation');
+const logo = document.querySelector('header>h1')
+
+logo.addEventListener('click', ()=>{
+    contentDiv.innerHTML = '';
+    contentDiv.appendChild(homePage());
+})
 
 homeBtn.addEventListener('click', ()=>{
     contentDiv.innerHTML = '';
