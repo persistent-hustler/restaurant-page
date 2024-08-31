@@ -1,4 +1,4 @@
-import { categories } from "./menu-data";
+import { categories } from "../data/menu-data";
 
 export const menuPage = () => {
     const content = document.createElement('div');

@@ -17,24 +17,29 @@ const logo = document.querySelector('header h1')
 logo.addEventListener('click', ()=>{
     contentDiv.innerHTML = '';
     contentDiv.appendChild(homePage());
+    window. scrollTo(0,0);
 })
 
 homeBtn.addEventListener('click', ()=>{
     contentDiv.innerHTML = '';
     contentDiv.appendChild(homePage());
+    window. scrollTo(0,0);
 })
 
 menuBtn.addEventListener('click', ()=>{
     contentDiv.innerHTML = '';
     contentDiv.appendChild(menuPage());
+    window. scrollTo(0,0);
 })
 
 aboutBtn.addEventListener('click', ()=>{
     contentDiv.innerHTML = '';
-    contentDiv.appendChild(aboutPage())
+    contentDiv.appendChild(aboutPage());
+    window. scrollTo(0,0);
 })
 
 reservationBtn.addEventListener('click', ()=>{
     contentDiv.innerHTML = '';
     contentDiv.appendChild(reservationPage());
+    window. scrollTo(0,0);
 })

@@ -1,0 +1,30 @@
+.reservation {
+    display: flex;
+    gap: 40px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.contact-us {
+    border: 1px solid grey;
+    padding: 0 40px;
+    font-size: large;
+    width: 70%;
+}
+
+.contact-us > img {
+    width: 300px;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar h5 {
+    margin-bottom: 12px;
+}
+
+.side-bar p {
+    margin: 8px;
+}
