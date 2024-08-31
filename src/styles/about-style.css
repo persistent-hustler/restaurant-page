@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.block {
+    width: 80%;
+    margin-bottom: 80px;
+    font-size: large;
+}
+
+.block:nth-child(even) {
+    align-self: flex-end;
+}
+
+.heading {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
